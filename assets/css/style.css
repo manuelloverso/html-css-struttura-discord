@@ -73,6 +73,19 @@ footer {
   border: 2px dashed white;
 }
 
+.debug .outer-lower-footer {
+  height: 70px;
+}
+
+.debug .buttons {
+  height: 75%;
+}
+
+.debug .footer-logo,
+.sign-up-btn {
+  border: 2px dashed black;
+}
+
 /* #endregion DEBUG */
 
 /* #region NAV */
@@ -181,8 +194,10 @@ header {
 footer {
   background-color: rgb(55, 55, 55);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 .upper-footer {
@@ -203,6 +218,27 @@ footer {
 .menu-column {
   background-color: rgb(1, 180, 180);
   flex-grow: 1;
+}
+
+.outer-lower-footer {
+  display: flex;
+  align-items: flex-end;
+  width: 70%;
+  border-top: 1px solid gainsboro;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.footer-logo,
+.sign-up-btn {
+  padding: 5px;
+  background-color: rgb(255, 151, 165);
 }
 
 /* #endregion FOOTER */
