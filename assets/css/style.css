@@ -11,21 +11,32 @@ a {
 
 /* #region DEBUG */
 
-.debug header {
+.debug nav {
   height: 80px;
 }
 
-.debug .flex-container {
+.debug header {
+  height: 700px;
 }
 
+.debug .header-section {
+  height: 80%;
+}
+
+.debug .logo,
+.links,
+.login {
+  border: 2px dashed black;
+}
+
+.debug .header-section {
+  border: 2px dashed black;
+}
 /* #endregion DEBUG */
 
-.container {
-  width: 80%;
-  margin: auto;
-}
+/* #region NAV */
 
-header {
+nav {
   background-color: aquamarine;
   display: flex;
   justify-content: center;
@@ -34,21 +45,17 @@ header {
 
 .flex-container {
   display: flex;
-  width: 80%;
+  width: 70%;
   background-color: orange;
 }
 
-span {
-}
-
 .logo,
-nav,
+.links,
 .login {
   padding: 10px;
-  border: 2px dashed black;
 }
 
-nav {
+.links {
   width: 60%;
   text-align: center;
 }
@@ -61,3 +68,21 @@ nav {
   flex-grow: 1;
   text-align: right;
 }
+
+/* #endregion NAV */
+
+/* #region HEADER */
+
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section {
+  background-color: rgb(235, 71, 235);
+  width: 60%;
+}
+
+/* #endregion HEADER */
