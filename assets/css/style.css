@@ -5,13 +5,17 @@
 }
 
 a {
+  text-decoration: none;
+  color: black;
 }
 
 /* #region DEBUG */
 
 .debug header {
-  height: 100px;
-  background-color: aquamarine;
+  height: 80px;
+}
+
+.debug .flex-container {
 }
 
 /* #endregion DEBUG */
@@ -22,17 +26,31 @@ a {
 }
 
 header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-container {
   display: flex;
   width: 80%;
-  margin: auto;
   background-color: orange;
+}
+
+span {
+}
+
+.logo,
+nav,
+.login {
+  padding: 10px;
+  border: 2px dashed black;
 }
 
 nav {
   width: 60%;
+  text-align: center;
 }
 
 .logo {
@@ -41,4 +59,5 @@ nav {
 
 .login {
   flex-grow: 1;
+  text-align: right;
 }
