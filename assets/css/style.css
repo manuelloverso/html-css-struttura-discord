@@ -9,8 +9,19 @@ a {
   color: black;
 }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 .container {
   width: 70%;
+}
+
+:root {
+  --header-blue: #3161e0;
+  --text-white: #fff;
+  --text-grey: #23272a;
+  --footer-blue: #8ea1e1;
 }
 
 /* #region DEBUG */
