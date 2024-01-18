@@ -9,6 +9,10 @@ a {
   color: black;
 }
 
+.container {
+  width: 70%;
+}
+
 /* #region DEBUG */
 
 .debug nav {
@@ -99,7 +103,6 @@ nav {
 
 .flex-container {
   display: flex;
-  width: 70%;
   background-color: orange;
 }
 
@@ -160,7 +163,6 @@ header {
 .pic-txt,
 .txt-pic {
   display: flex;
-  width: 70%;
 }
 
 .txt-pic {
@@ -202,7 +204,6 @@ footer {
 
 .upper-footer {
   display: flex;
-  width: 70%;
 }
 
 .socials {
@@ -223,7 +224,6 @@ footer {
 .outer-lower-footer {
   display: flex;
   align-items: flex-end;
-  width: 70%;
   border-top: 1px solid gainsboro;
 }
 
