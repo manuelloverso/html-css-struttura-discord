@@ -46,6 +46,15 @@ a {
 .txt {
   border: 2px dashed black;
 }
+
+.debug .outer-txt-over-pic {
+  height: 1000px;
+}
+
+.debug .txt-over-pic {
+  height: 80%;
+  border: 2px dashed black;
+}
 /* #endregion DEBUG */
 
 /* #region NAV */
@@ -135,5 +144,16 @@ header {
 .txt {
   background-color: rgb(255, 162, 222);
   flex-grow: 1;
+}
+
+.outer-txt-over-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-over-pic {
+  background-color: green;
+  width: 80%;
 }
 /* #endregion MAIN */
