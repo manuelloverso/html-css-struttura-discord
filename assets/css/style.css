@@ -32,6 +32,20 @@ a {
 .debug .header-section {
   border: 2px dashed black;
 }
+
+.debug .outer-section {
+  height: 600px;
+}
+
+.debug .pic-txt,
+.txt-pic {
+  height: 80%;
+}
+
+.pic,
+.txt {
+  border: 2px dashed black;
+}
 /* #endregion DEBUG */
 
 /* #region NAV */
@@ -86,3 +100,40 @@ header {
 }
 
 /* #endregion HEADER */
+
+/* #region MAIN */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: gainsboro;
+}
+
+.outer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-txt,
+.txt-pic {
+  display: flex;
+  width: 70%;
+}
+
+.txt-pic {
+  flex-direction: row-reverse;
+}
+
+.pic {
+  background-color: rgb(92, 92, 239);
+  width: 60%;
+}
+
+.txt {
+  background-color: rgb(255, 162, 222);
+  flex-grow: 1;
+}
+/* #endregion MAIN */
